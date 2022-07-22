@@ -258,13 +258,27 @@ header li + li {
   header nav {
     display: none;
   }
-  
+
+  .list {
+    padding: 0;
+  }
   .section-title h1 {
     padding: 0;
     text-align: center;
   }
 
-  .company img {
+
+
+  .about .img{
+    display: none;
+   
+  }
+
+  .about {
+    padding: 0;
+  }
+
+  .company .img {
     display: none;
   }
 
@@ -275,8 +289,8 @@ header li + li {
 
   .news {
     text-align: center;
-    padding: 0;
-    background: rgb(218, 187, 187);
+    padding: 20px;
+   
   }
 
 
